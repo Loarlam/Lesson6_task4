@@ -33,7 +33,7 @@ namespace task4
             Console.Write("Массив до сортировки = ");
             for (int i = 0; i < arraySize; i++)
             {
-                Console.Write($"{initialArray[i] = random.Next(1, 30)} ");                
+                Console.Write($"{initialArray[i] = random.Next(1, 30)} ");
             }
 
             finalArray = initialArray.SortsMass();
